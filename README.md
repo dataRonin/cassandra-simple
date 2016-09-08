@@ -93,11 +93,17 @@ Check the status of a node:
 CQLSH WITH THE NODE
 ====
 
-I couldn't actually get this to work, but you can apparently call
+
+This isn't well documented. Use
 
 
-		ccm node1 cqlsh
+		ccm node1 nodetool status
 
+
+to see only node1.
+
+
+![tablefied](image4=8.png "node1 only")	
 
 
 Instead, I just called 
@@ -134,3 +140,14 @@ We can fix that.
 
 
 ![you say goodbye, but i say hello](image6.png "i say yes")
+
+
+QUERIES 
+====
+
+
+Get a few more entries that you've entered. Use the secondary index to find them for good measure. 
+
+
+![dognames](imgae7.png "my dogs")
+
